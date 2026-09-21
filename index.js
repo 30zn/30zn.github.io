@@ -1,11 +1,10 @@
 // 설정부분
 
 // 디스코드 유저 아이디 적는곳
-let discordUserId = "159005832661565440"
+let discordUserId = "344366136390844416"
 
 // failback image (디스코드 서버 터지면 보여줄 사진)
-let failbackProfileImage = "https://cdn.discordapp.com/attachments/1077112525700730971/1201765654227853384/f92f8db81f095abb5d32bfa4193ea9bb.jpg?ex=65cb027b&is=65b88d7b&hm=a88f09e5087076c393e8cc991c2e267fec6edd816c01d15c123d20048dc147cc&"
-
+let failbackProfileImage = "assets/fallback.jpg";
 // 설정부분 끝
 
 
@@ -72,7 +71,7 @@ async function discordMain() {
                 )
 
                 // 이름설정
-                profileName.textContent = "신지후"
+                profileName.textContent = "user.username"
                     //user.username로 작성시 디스코드 아이디가 표시됨
 
                 // 클립보드에 이름 복사
